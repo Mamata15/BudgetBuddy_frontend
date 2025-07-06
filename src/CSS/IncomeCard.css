@@ -1,0 +1,16 @@
+.income-card {
+  background-color: #facc15;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.income-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

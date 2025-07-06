@@ -1,0 +1,76 @@
+.expense-container {
+  padding: 24px;
+  flex: 1;
+}
+
+.expense-controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.add-btn {
+  background-color: #398f32;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.date-input,
+.input-title,
+.amount-input {
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.expense-entry {
+  background-color: #fee2e2;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.entry-title {
+  font-weight: 600;
+}
+
+.entry-date {
+  color: gray;
+}
+
+.entry-amount {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+.entry-more {
+  color: #b91c1c;
+  cursor: pointer;
+}
+
+.charts-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.expense-entries {
+  flex: 1;
+}
+
+.piechart-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
